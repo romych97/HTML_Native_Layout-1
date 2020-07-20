@@ -1,3 +1,6 @@
+
+/* GIT TEST */
+
 @media (max-width: 680px){
 
     .bbm, .ddm .conteiner_main_block_position, .container-main {
@@ -139,7 +142,7 @@
     }
     .position_utp{
         max-width: 680px;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
     }
     .utp {
         padding-left: 15px;
@@ -152,6 +155,10 @@
     }
     .utp_send_tex, img, .container, .beTrustInnerWrap .prisce_nembers_block, .beTrustInnerWrap .price_blok_text {
         width: 100% !important;
+    }
+    form.form button {
+        height: 70px;
+        width: 100%;
     }
     .achiv_position{
         width: 95%;
@@ -219,6 +226,13 @@
     .clients_position{
         max-width: 680px;
 
+    }
+    form.form input {
+        width: 100%;
+        height: 70px;
+        padding: 0px 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
     .clients_haiding{
         font-size: 28px;
