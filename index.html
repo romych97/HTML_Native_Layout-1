@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fonts/fonts.css">
+</head> 
+
+
+
+<body class="bg_fon">
+            <div class="bg">
+                <div class="header_position">
+                    <div class="logo">
+                        <img src="img/logo.png">
+                    </div>
+                    <div class="mobileMenu position-absolute d-none">
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle">
+                              <span></span>
+                            </label>
+                            <ul class="menu__box">
+                                <li><a class="menu__item" href=#>Прайс лист</a></li>
+                                <li><a class="menu__item" href=#>О компании</a></li>
+                                <li><a class="menu__item" href=#>Отзывы</a></li>
+                                <li><a class="menu__item" href=#>Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href=#>Прайс лист</a></li>
+                            <li><a href=#>О компании</a></li>
+                            <li><a href=#>Отзывы</a></li>
+                            <li><a href=#>Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="call">
+                        <p class="call_phone">+7(495)127-0-77</p>
+                        <a href="tel:7495127077">
+                            <button class="call_button">Обратный звонок</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="position_foreutp pb-5 mb-20">
+                    <div class="position_utp">
+                        <div class="utp">
+                            <p class="utp_text">
+                                Поставка арматуры </br>в <span>расрочку</span>
+                                <p class="utp_text_two">
+                                    <span>за 2 часа</span> с горантией доставки!
+                                </p>
+                            </p>
+                        </div>
+                        <div class="utp_send">
+                            <p class="utp_send_text">
+                                Арматура A1 A500C Ф12</br><span>за 19 590 руб.</span>
+                            </p>
+                            <input class="utp_input" type="text" value="Ваше имя">
+                            <input class="utp_input" type="tel" value="Ваш телефон">
+                            <p class="utp_send_text_two">На складе еще <span><b>450 тонн</b></span> арматуры</p>
+                            <button class="utp_button">заказать арматуру</button>
+                            <p class="utp_text_tree"><span><b>+ подарок</b></span> «+ 5 золотых правил по выбору
+                                арматуры которому не следуют 8 из 10 заказчиков»</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="max-width: 680px;" class="d-none container-main">
+                    <div class="ourPrerogatives">
+                        <div style="flex-direction: row;" class="d-flex">
+                            <div class="m-0 mr-3"><img src="./img/full_mZrscpIY.png"></div>
+                            <div class="m-0 pr-2">Эксклюзивные договора с производителями</div>
+                        </div>
+                        <div style="flex-direction: row;" class="d-flex">
+                            <div class="m-0 mr-3"><img src="./img/3cb6cfcd7aea2dd88e33db5dbdfa4c7a.png"></div>
+                            <div class="m-0 pr-2">4-х уровневая система контроля качества</div>
+                        </div>
+                        <div style="flex-direction: row;" class="d-flex">
+                            <div class="m-0 mr-3"><img src="./img/Sloy_18.png"></div>
+                            <div class="m-0 pr-2">Официальный договор</div>
+                        </div>
+                        <div style="flex-direction: row;" class="d-flex">
+                            <div class="m-0 mr-3"><img src="./img/Sloy_15.png"></div>
+                            <div class="m-0 pr-2">Оформляем заказ по одному звонку</div>
+                        </div>
+                        <div style="flex-direction: row;" class="d-flex">
+                            <div class="m-0 mr-3"><img src="./img/kisspng-wallet-leather-clothing-accessories-coin-purse-ama-5ade14df7dad20_0078011415245037755148.png"></div>
+                            <div class="m-0 pr-2">Безналичный, наличный расчет и рассрочка</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-main">
+                    <h2 class="container_main_had">Поставляем арматуру</br> 
+                        <span>6-ти заводов</span> изготовителей</h2>
+                    <div class="tabs">
+                        <input type="radio" name="inset" value="" id="tab_1" checked>
+                        <label for="tab_1">РИФЛЕННАЯ А3</label>
+                    
+                        <input type="radio" name="inset" value="" id="tab_2">
+                        <label for="tab_2">ГЛАДКАЯ А1</label>
+                    
+                        <input type="radio" name="inset" value="" id="tab_3">
+                        <label for="tab_3">А3 А500</label>
+                    
+                        <input type="radio" name="inset" value="" id="tab_4">
+                        <label for="tab_4">НЕМЕРНАЯ</label>
+                    
+                        <input type="radio" name="inset" value="" id="tab_5">
+                        <label for="tab_5">А3 35ГС</label>
+                    
+                        <input type="radio" name="inset" value="" id="tab_6">
+                        <label for="tab_6">А3 25Г2С</label>
+                    
+                        <input type="radio" name="inset" value="" id="tab_7">
+                        <label for="tab_7">А3 А400</label>
+                    
+                        <input type="radio" name="inset" value="" id="tab_8">
+                        <label for="tab_8">А3 B500C</label>
+                    
+                        <input type="radio" name="inset" value="" id="tab_9">
+                        <label for="tab_9">А1 A240</label>
+                    
+                        <div id="txt_1">
+                            <table class="w-100">
+                                <tr>
+                                    <td class="br-lt">АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 6</td>
+                                    <td>6 ММ</td>
+                                    <td>6 М</td>
+                                    <td class="br-rt">23 200 Р</td>
+                                </tr>
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                                <tr>
+                                    <td class="br-lb">АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td class="br-rb">24 920 Р</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="txt_2">
+                            <table class="w-100">
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="txt_3">
+                        <table class="w-100">
+                            <tr>
+                                <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                <td>8 ММ</td>
+                                <td>6 М</td>
+                                <td>24 920 Р</td>
+                            </tr>
+                        </table>
+                        </div>
+                        <div id="txt_4">
+                        <table class="w-100">
+                            <tr>
+                                <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                <td>8 ММ</td>
+                                <td>6 М</td>
+                                <td>24 920 Р</td>
+                            </tr>
+                        </table>
+                        </div>
+                        <div id="txt_5">
+                            <table class="w-100">
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="txt_6">
+                            <table class="w-100">
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="txt_7">
+                            <table class="w-100">
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="txt_8">
+                            <table class="w-100">
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="txt_9">
+                            <table class="w-100">
+                                <tr>
+                                    <td>АРМАТУРА РИФЛЕНАЯ А-3 А500С 0 8</td>
+                                    <td>8 ММ</td>
+                                    <td>6 М</td>
+                                    <td>24 920 Р</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="achiv_position">
+                <p class="heading">
+                    Сэкономьте до <span>100 000 рублей</span> на</br> каждых 20-ти тоннах
+                </p>
+                <div class="win_position">
+                    <div class="win_position_blok">
+                        <img class="win_position_img" src="img/ferst.png">
+                        <p>тонн арматуры и другого металлопроката в наличии на складе</p>
+                    </div>
+                    <div class="win_position_blok">
+                        <img class="win_position_img" src="img/second.png">
+                        <p>машин в автопарке, из которых 17 длинномеров</p>
+                    </div>
+                    <div class="win_position_blok">
+                        <img class="win_position_img" src="img/therd.png">
+                        <p>клиентов в год обслуживает наша металлобаза</p>
+                    </div>
+                    <div class="win_position_blok">
+                        <img class="win_position_img" src="img/fore.png">
+                        <p>млн рублей в автопарке, из которых 17 длинномеров</p>
+                    </div>
+                    <div class="win_position_blok">
+                        <img class="win_position_img" src="img/fife.png">
+                        <p>заказывают металлопрокат на регулярной основе</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_position_solid"></div>
+            <div class="solution_position">
+                <div class="media_position">
+                    <p class="solution_position_haiding">
+                        <span>Выбор и заказ</span> не займет</br> много времени
+                    </p>
+                    <div class="solution_position_block_ferst">
+
+                        <div class="solution_position_block_ferst_position">
+                            <img src="img/gendir.png">
+                            <p class="solution_position_block_ferst_text">
+                                От звонка до отгрузки максимум <span class="upercase">один день</span> благодаря
+                                консультации специалистов по металлопрокату и быстрому сбору заказа на металлобазе.
+                            </p>
+                            <div class="solution_position_block_ferst_img">
+                                <div class="block_position">
+                                    <img src="img/1day.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solution_position_block_second_position">
+                        <p class="solution_position_block_second_text">
+                            После согласования вашей цены и индивидуальной скидки мы сами привезём и разгрузим арматуру
+                            и предоставим несколько форм оплаты: на месте по факту, на банковскую карту, на безналичный
+                            счёт компании.
+                        </p>
+                        <img src="img/arma.png">
+                    </div>
+                </div>
+            </div>
+        <div class="clients">
+            <div class="clients_position">
+                <p class="clients_haiding">Более 6 лет выполняем заказы для</br>
+                    самых требовательных клиентов</p>
+                <div class="clients_bloks_position">
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                    <div class="clients_blocks">
+                        <div class="clients_blocks_img">
+                            <img src="img/metro.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="paginate d-none">
+                    <!-- <span>-</span>
+                    <span>-</span>
+                    <span>-</span> -->
+                </div>
+            </div>
+            <div class="bg_posotion_clients2"></div>
+        </div>
+        <div class="bg_posotion_clients"></div>
+    </div>
+    </div>
+    <div class="container container-main">
+        <div class="pb-5">
+            <div class="metal_position">
+                <h2>Храните металл на <span>нашем складе</span></h2>
+            </div>
+            <div class="media_metal">
+                Возьмем ваш заказ на хранение пока стройка не готова к приему. И доставим его к вам</br> на обьект по
+                согласованию
+            </div>
+            <div>
+                <form class="form">
+                    <input class="metal_position_input" type="text" value="Ваше имя">
+                    <input class="metal_position_input" type="tel" value="Ваш телефон">
+                    <button class="background-green metal_position_button"> ОСТАВИТЬ ЗАКАЗ </button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <div class="bg_position_solid"></div>
+        
+        <div class="container container-main">
+        <div class="pb-5 contein_position">
+            <div class="d-flex pb-2">
+                <div>
+                    <h2 class="info_text">
+                        Станьте одним из <span class="caps">3000*</span></br> наших требовательных клиентов в 2020 году
+                    </h2>
+                </div>
+                <div>
+                    <img src="img/therd_cl.png" class="img_position" alt=""> <p class="three_tex">наших требовательных клиентов</p>
+                </div>
+            </div>
+            <div class="media_client_text">(под *среднее кол-во клиентов в год за последние 2 года)</div>
+        </div>
+       
+        <div class="background-green exclusiveHeader mb-3 font_w">Для физических лиц</div>
+
+        <div class="pb-5">
+            <div class="d-flex mb-2">
+                <div class="containIMG_wrapper">
+                    <img class="w-100 h-100 contain_img"
+                        src="https://cdn.sm-news.ru/wp-content/uploads/2020/05/12/a98bd354177f9bc2eeb12361b578b620.jpg">
+                </div>
+                
+                <div class="contain_text ctb">
+                    <div class="contain_text_name">ЕЛЕНА МАРКИНА, ВАЛЕНТИН</br> МАРКИН</div>
+                    <div class="contain_text_name_second">Загородный 2-х этажный дом, 320 м</div>
+                    <div class="contain_text_name_blok">
+                        <div class="background-green contain_text_name_blok_div">
+                            Бетон М300 гравий
+                        </div>
+                        <div class="background-green contain_text_name_blok_div ml-2">
+                            175 м
+                        </div>
+                    </div>
+                    <div class="contain_text_name_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, </br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="pb-5 contain_position_two">
+            <div class="d-flex mb-2 reverce">
+               
+                
+                <div class="contain_text contain_text_position">
+                    <div class="contain_text_name">ЕЛЕНА МАРКИНА, ВАЛЕНТИН</br> МАРКИН</div>
+                    <div class="contain_text_name_second">Загородный 2-х этажный дом, 320 м</div>
+                    <div class="contain_text_name_blok">
+                        <div class="background-green contain_text_name_blok_div">
+                            Бетон М300 гравий
+                        </div>
+                        <div class="background-green contain_text_name_blok_div ml-2">
+                            175 м
+                        </div>
+                    </div>
+                    <div class="contain_text_name_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, </br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+                <div class="containIMG_wrapper">
+                    <img class="w-100 h-100 content_img_two"
+                        src="https://cdn.sm-news.ru/wp-content/uploads/2020/05/12/a98bd354177f9bc2eeb12361b578b620.jpg">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="exclusiveHeader mb-3 background-orange font_w_two">Для юридических лиц</div>
+
+        <div class="pb-5">
+            <div class="d-flex mb-2">
+                <div class="containIMG_wrapper">
+                    <img class="w-100 h-100 contain_img"
+                        src="https://cdn.sm-news.ru/wp-content/uploads/2020/05/12/a98bd354177f9bc2eeb12361b578b620.jpg">
+                </div>
+                
+                <div class="contain_text ctb">
+                    <div class="contain_text_name">ЕЛЕНА МАРКИНА, ВАЛЕНТИН</br> МАРКИН</div>
+                    <div class="contain_text_name_second">Загородный 2-х этажный дом, 320 м</div>
+                    <div class="contain_text_name_blok">
+                        <div class="background-orange contain_text_name_blok_div">
+                            Бетон М300 гравий
+                        </div>
+                        <div class="background-orange contain_text_name_blok_div ml-2">
+                            175 м
+                        </div>
+                    </div>
+                    <div class="contain_text_name_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, </br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="pb-5 contain_position_two">
+            <div class="d-flex mb-2 reverce">
+               
+                
+                <div class="contain_text contain_text_position">
+                    <div class="contain_text_name">ЕЛЕНА МАРКИНА, ВАЛЕНТИН</br> МАРКИН</div>
+                    <div class="contain_text_name_second">Загородный 2-х этажный дом, 320 м</div>
+                    <div class="contain_text_name_blok">
+                        <div class="background-orange contain_text_name_blok_div">
+                            Бетон М300 гравий
+                        </div>
+                        <div class="background-orange contain_text_name_blok_div ml-2">
+                            175 м
+                        </div>
+                    </div>
+                    <div class="contain_text_name_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, </br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </div>
+                </div>
+                <div class="containIMG_wrapper">
+                    <img class="w-100 h-100 content_img_two"
+                        src="https://cdn.sm-news.ru/wp-content/uploads/2020/05/12/a98bd354177f9bc2eeb12361b578b620.jpg">
+                </div>
+            </div>
+            
+        </div>
+    </div></div>
+
+    <div class="mb-5 p-r background-orange beTrustInnerWrap">
+        <div style="height: 440px" class="container container-main">
+            <div style="width: 750px" class="ml-0 d-flex h-100 beTrustInner">
+                <div style="z-index: 5">
+                    <div class="price_block">
+                        <h2>Будьте уверены в покупке</h2>
+                    </div>
+                    <div class="price_block_text">Все заказы проходят систему трехуровнего контроля на момент отгрузки:</div>
+                    <div class="d-flex ppz">
+                        <div class="prisce_nembers_block">
+                            <div class="price_numers">01</div>
+                            <div class="price_text">Взвешивание груза краном</div>
+                        </div>
+                        <div class="prisce_nembers_block">
+                            <div class="price_numers">02</div>
+                            <div class="price_text">Взвешивание вместе с машиной</div>
+                        </div>
+                        <div class="prisce_nembers_block">
+                            <div class="price_numers">03</div>
+                            <div class="price_text">Подсчет арматуры по количеству</div>
+                        </div>
+                    </div>
+                    <div class="price_blok_text">Все менеджеры имею высшее профильное образование и ежегодно учавствуют в профильных
+                        металлургических выставках</div>
+                    <div class="price_blok_text">Специалист ОТК делает выборку и проверяет на излом прутья каждой партии арматуры, привезенной с
+                        завода изготовителя на нашу базу</div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 470px" class="imageContainer-1 h-100">
+            <img class="w-100 h-100"
+                src="img/Gruppa_3.png">
+        </div>
+    </div>
+
+    <div class="container container-main pb-5">
+        <div class="d-flex">
+            <div class="ml-0">
+                <div class="h1">
+                   Контролируйте весь процесс от заказа <span>до погрузки</span>
+                </div>
+                <div class="mb-2">
+                    После погрузки машины экспедитор сопроваждающий груз созванивается с вами
+                </div>
+                <div>
+                    <ul class="listProperties">
+                        <li class="mb-2">отправляет фотографию с погрузки</li>
+                        <li class="mb-2">сверяет погрузочные документы</li>
+                        <li>проговаривает погрузочные позиции металла</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="border-radius: 10px !Important;" class="border-orange px-3 py-3 margin_media">
+                <form>
+                    <div class="text-center">
+                        <h2 class="h3">Оставить заказ</h2>
+                    </div>
+                    <div><input class="utp_input2"></div>
+                    <div><input class="utp_input2"></div>
+                    <div><button class="utp_button mt-3">ОСТАВИТЬ ЗАКАЗ</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-5" style="position: relative; height: 400px">
+        <div style="align-items: center;" class="container-main w-100 h-100 d-flex dds">
+            <div class="conteiner_main_block m-0 ddm">
+                <p>Контакты</p>
+                <div class="conteiner_main_block_position">
+                <div class="conteiner_main_text"><div class="conteiner_main_tex_img placeholder"><img src="img/placeholder.png"></div>вулиця Басейна, 19, Москва</div>
+                <div class="conteiner_main_text"><div class="conteiner_main_tex_img"><img src="img/phone.png"></div>+38 (044) 17-17-177</div>
+                <div class="conteiner_main_text"><div class="conteiner_main_tex_img"><img src="img/mail.png"></div>mymail@gmail.com</div>
+            </div>
+                <a href="tel:7495127077">
+                    <button class="conteiner_main_button">обратный звонок</button>
+                <a>
+            </div>
+        </div>
+        <iframe style="position: absolute; top: 0px" class="w-100 h-100"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127946.59477395928!2d30.352998399999997!3d59.929395199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1594764905443!5m2!1sru!2sru"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </div>
+
+    <div class="container container-main pb-5 bbm">
+        <div class="d-flex">
+            <div class="ml-0 mr-5 bottomMenuLogo">
+                <div>
+                    <img src="img/logo.png">
+                </div>
+            </div>
+            <div class="d-flex ml-5 m-0 w-100 bottomMenu">
+                <div><a href="#">ПРАЙС ЛИСТ</a></div>
+                <div><a href="#">О КОМПАНИИ</a></div>
+                <div><a href="#">ОТЗЫВЫ</a></div>
+                <div><a href="#">КОНТАКТЫ</a></div>
+            </div>
+            <div class="flexBasis-33 bottomMenuRight">
+                <div class="text-center mb-1">+7 (495) 127-0-777</div>
+                <div> 
+                    <a href="tel:7495127077">
+                        <button class="utp_button3 w-100">ОБРАТНЫЙ ЗВОНОК</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center background-orange text-white py-3"> ® 2020 Все права защищены. </div>
+
+    </div>
+
+</body>
+
+</html>

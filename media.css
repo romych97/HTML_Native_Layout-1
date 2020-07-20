@@ -1,0 +1,562 @@
+@media (max-width: 680px){
+
+    .bbm, .ddm .conteiner_main_block_position, .container-main {
+        margin: 0px !important;
+    }
+
+    .mb-20 {
+        margin-bottom: 30px !important;
+    }
+
+    .metal_position {
+        padding: 0px !important;
+        margin-top: 50px !important;
+    }
+
+    .paginate {
+        display: flex !Important;
+    }
+
+    .metal_position h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .clients_bloks_position {
+        margin-bottom: 20px;
+    }
+
+    .call_phone {
+        font-size: 30px;
+    }
+
+    .clients_blocks {
+        width: 80% !important;
+    }
+
+    p.solution_position_block_ferst_text, p.solution_position_block_second_text {
+        margin-left: 0px;
+    }
+
+    .clients_position {
+        width: 100% !important;
+    }
+
+    p.clients_haiding {
+        margin-top: 50px;
+    }
+
+    .achiv_position {
+        margin-top: 70px !important;
+    }
+
+    span.upercase {
+        margin: 0px;
+    }
+
+    img.win_position_img {
+        width: auto !important;
+    }
+    .bg_position_solid {
+        height: 100px;
+        width: 110% !important;
+        top: 0px;
+        left: -20px !important;
+    }
+
+    .position_foreutp .position_utp {
+        margin-top: 0px;
+    }
+
+    p.utp_text {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    p.utp_text_two {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .call {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .ourPrerogatives {
+        max-width: 100% !important;
+        margin-bottom: 70px;
+    }
+
+    .bg, .bg_fon { background-image: none; }
+
+    .container-main.pb-5, h2.container_main_had {
+        padding: 0px 20px;
+    }
+
+    .container-main {
+        display: block !important;
+    }
+    
+    .dds {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ddm { width: 90%; }
+    h2.container_main_had { font-size: 32px; }
+
+
+    .reverce>div, .ctb {
+        margin: 10px 0px 0px 0px !important;
+        padding: 0px !important;
+    }
+
+    input.utp_input, .clients_haiding, .utp_button, .solution_position_block_ferst_img, .block_position {
+        width: 100% !important;
+    }
+
+    .utp_send { padding: 20px; }
+
+    .contain_text_name_blok>div:nth-child(2) { width: 30%; }
+    .contain_text_name_blok>div:nth-child(1) { width: 70%; }
+    .contain_text_name_blok {
+        width: 100% !important;
+        display: flex;
+        text-align: center;
+    }
+
+    .contain_text_name_text, .bottomMenuLogo { margin: 0px 0px 20px 0px !important; }
+
+    .header_position{
+        max-width: 680px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+    }
+    .position_foreutp{
+        margin-bottom: 30px;
+    }
+    .position_utp{
+        max-width: 680px;
+        flex-wrap: wrap;
+    }
+    .utp {
+        padding-left: 15px;
+        padding-bottom: 30px;
+    }
+    .utp_send{
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+    }
+    .utp_send_tex, img, .container, .beTrustInnerWrap .prisce_nembers_block, .beTrustInnerWrap .price_blok_text {
+        width: 100% !important;
+    }
+    .achiv_position{
+        width: 95%;
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .block_position {
+        margin: 0px 20px;
+        width: auto !important;
+    }
+    .heading{
+        font-size: 28px;
+    }
+    .win_position{
+        width: 95%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .solution_position{
+        margin: 0px !important;
+        width: auto;
+        max-width: 680px;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+
+    }
+    .solution_position_haiding{
+        font-size: 28px;
+        padding-bottom: 100px;
+    }
+    .media_position{
+        width: 95%;
+    }
+    
+    .block_position{
+        position: relative;
+        margin-left: 0;
+        bottom: 150px;
+    }
+    .solution_position_block_ferst, solution_position_block_second_text, .solution_position_block_second_position {
+        width: 100% !important;
+    }
+    .solution_position_block_ferst_position{
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100% !important;
+    }
+    .solution_position_block_ferst_text{
+       font-weight: bold;
+    }
+    .solution_position_block_second_position{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+    .solution_position_block_second_text{
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .reverce{
+        flex-direction: column-reverse !important;
+    }
+
+    .clients_position{
+        max-width: 680px;
+
+    }
+    .clients_haiding{
+        font-size: 28px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .clients_bloks_position{
+        flex-direction: column;
+    }
+    .metal_position{
+        font-size: 28px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .media_metal {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 600;
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .info_text{
+        font-size: 28px;
+        padding-left: 15px;
+    }
+    .img_position{
+        position: relative;
+        top: 0;
+    }
+    .three_tex{
+        margin-top: 0;
+        position: relative;
+        top: 20px;
+    }
+    .media_client_text{
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    .pb-5 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .font_w, .font_w_two{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .price_block{
+        font-size: 28px;
+    }
+    .price_block_text, .price_block, .price_blok_text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .beTrustInnerWrap {
+        padding-top: 40px;
+    }
+    .mb-5{
+        height: 210vh;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .price_blok_text {
+        justify-content: flex-start;
+        width: 50%;
+    }
+    .h1{
+        font-size: 28px;
+    }
+    .margin_media{
+        margin-top: 30px;
+    }
+
+    .menu, .bottomMenu, .tabs>label, .prisce_nembers_block::after, 
+    .prisce_nembers_block::before, .imageContainer-1, .bg_posotion_clients,
+    .bg_posotion_clients2, .clients_blocks {
+        display: none !important;
+    }
+
+    .header_position {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .mobileMenu, .tabs>input:checked + label, .tabs>input:checked + label, .clients_blocks:nth-child(1), .clients_blocks:nth-child(2), .clients_blocks:nth-child(3) {
+        display: block !important;
+    }
+}
+
+@media (min-width: 680px) and (max-width: 1000px) {
+    input.utp_input, .clients_haiding, .solution_position_block_ferst_img {
+        width: 100% !important;
+    }
+    .ourPrerogatives {
+        max-width: 960px !important
+    }
+    .solution_position_block_ferst_img {
+        text-align: center;
+    }
+    .containIMG_wrapper {
+        margin: 0px !important;
+    }
+    .bottomMenuRight {
+        width: auto !important;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bottomMenuRight div {
+        font-size: 20px;
+        margin-bottom: 10px !important;
+    }
+    .bottomMenuLogo {
+        margin: 0px !important;
+    }
+    .reverce{
+        flex-direction: column-reverse !important;
+    }
+    .utp_button {
+        width: 100% !important;
+    }
+    .utp_send {
+        padding: 20px;
+    }
+    .tabs>label {
+        display: none;
+    }
+    .tabs>input:checked + label {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .container-main {
+        display: block !important;
+    }
+    .mb-20 {
+        margin-bottom: 0px !important;
+    }
+    .bg_fon{
+        background-image: none;
+    }
+    .header_position{
+        max-width: 680px;
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .position_foreutp{
+        margin-bottom: 30px;
+    }
+    .position_utp{
+        max-width: 680px;
+        flex-wrap: wrap;
+    }
+    .utp {
+        padding-left: 15px;
+        padding-bottom: 30px;
+    }
+    .utp_send{
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+    }
+    .utp_send_tex{
+        width: 100%;
+    }
+    .achiv_position{
+        width: 95%;
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .heading{
+        font-size: 28px;
+    }
+    .win_position{
+        width: 95%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .solution_position{
+        width: 95%;
+        max-width: 680px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    .solution_position_haiding{
+        font-size: 28px;
+        padding-bottom: 100px;
+    }
+    .media_position{
+        width: 95%;
+    }
+    
+    .block_position{
+        position: relative;
+        margin-left: 0;
+        bottom: 150px;
+    }
+    .solution_position_block_ferst_position{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .solution_position_block_ferst_text{
+       font-weight: bold;
+    }
+    .solution_position_block_second_position{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+    .solution_position_block_second_text{
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .contain_text_name_text {
+        margin: 0px;
+    }
+
+    .contain_text {
+        width: 100%;
+        /* text-align: left; */
+    }
+
+    .clients_position{
+        max-width: 680px;
+
+    }
+    .clients_haiding{
+        font-size: 28px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .clients_bloks_position{
+        flex-direction: row;
+    }
+    .bg_posotion_clients{
+        display: none;
+    }
+    .bg_posotion_clients2{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .metal_position{
+        font-size: 28px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .media_metal{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .info_text{
+        font-size: 28px;
+        padding-left: 15px;
+    }
+    .img_position{
+        position: relative;
+        top: 0;
+    }
+    .three_tex{
+        margin-top: 0;
+        position: relative;
+        top: 20px;
+    }
+    .media_client_text{
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    .font_w, .font_w_two, .pb-5, .price_block, .price_block_text {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .imageContainer-1 {
+        display: none;
+    }
+    .price_block {
+        font-size: 28px;
+    }
+    .mb-5{
+        height: 240vh;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .prisce_nembers_block::before, .bottomMenu, .prisce_nembers_block::after{
+        display: none !important;
+    }
+    .call_phone {
+        font-size: 25px !important;
+        margin-top: 20px;
+    }
+    .price_blok_text{
+        justify-content: flex-start;
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .h1{
+        font-size: 28px;
+    }
+    .margin_media{
+        margin-top: 30px;
+    }
+    .mobileMenu {
+        display: block !important;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .mobileMenu, .bg_posotion_clients2, .bg_posotion_clients {
+        display: none !important;
+    }
+    
+    .block_position { margin-left: 500px; }
+}
+
+@media (max-width: 1300px) {
+    .imageContainer-1 {
+        display: none;
+    }
+    .beTrustInner {
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width: 1200px) {
+}
