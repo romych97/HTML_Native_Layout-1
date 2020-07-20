@@ -435,6 +435,80 @@ label.menu__btn {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+.next{
+    position: absolute;
+    top: 8%;
+    left: 14%;
+    width: 3px;
+    height: 80px;
+    background-color: #dd6a00;
+   
+}
+.next_text{
+    color: #dd6a00;
+   transform: rotate(270deg);
+   position: reletive;
+    bottom: 15px;
+}
+.offers_position{
+   
+}
+.offer_with{
+    display: inline-flex;
+    width: 480px;
+    position: absolute;
+    left: 32%;
+    top: 5%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.offer_with_two{
+    display: inline-flex;
+    width: 480px;
+    position: absolute;
+    left: 36.8%;
+    top: 6.2%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.offer_with_tree{
+    display: inline-flex;
+    width: 480px;
+    position: absolute;
+    left: 43.9%;
+    top: 7.4%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.offer_with_fore{
+    display: inline-flex;
+    width: 480px;
+    position: absolute;
+    left: 52%;
+    top: 8.4%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.offer_with_fife{
+    display: inline-flex;
+    width: 480px;
+    position: absolute;
+    left: 65%;
+    top: 9.1%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.offer_text{
+    display: inline-flex;
+    position: relative;
+    right: 25px;
+    bottom: 10px;
+}
+.offer{
+    width: 150px;
+}
+
 
 .container_main_had{
     font-size: 48px;
