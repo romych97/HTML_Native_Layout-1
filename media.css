@@ -90,6 +90,11 @@
         width: 20px !important;
     }
 
+    
+    .mb-5.p-r.background-orange.beTrustInnerWrap {
+        height: 180vh !important;
+    }
+
     .metal_position h2 {
         font-size: 30px;
         margin-bottom: 30px;
@@ -218,7 +223,7 @@
         width: 100% !important;
     }
 
-    .utp_send { padding: 20px; }
+    .utp_send { padding: 0px 20px !important; }
 
     .contain_text_name_blok>div:nth-child(2) { width: 30%; }
     .contain_text_name_blok>div:nth-child(1) { width: 70%; }
