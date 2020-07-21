@@ -9,7 +9,12 @@
     .next{
         display: none;
     }
-
+    .arma_header{
+        display: none;
+    }
+    .line_bg{
+        display: none;
+    }
     .bbm, .ddm .conteiner_main_block_position, .container-main {
         margin: 0px !important;
     }
@@ -341,6 +346,12 @@
     .next{
         display: none;
     }
+    .arma_header{
+        display: none;
+    }
+    .line_bg{
+        display: none;
+    }
 
     input.utp_input, .clients_haiding, .solution_position_block_ferst_img {
         width: 100% !important;
@@ -577,7 +588,12 @@
     .next{
         display: none;
     }
-
+    .arma_header{
+        display: none;
+    }
+    .line_bg{
+        display: none;
+    }
     .mobileMenu, .bg_posotion_clients2, .bg_posotion_clients {
         display: none !important;
     }
