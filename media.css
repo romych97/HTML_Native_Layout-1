@@ -9,6 +9,14 @@
     .next{
         display: none;
     }
+<<<<<<< HEAD
+    .arma_header{
+        display: none;
+    }
+    .line_bg{
+        display: none;
+    }
+=======
 
     .tabs tr td {
         padding: 25px 20px !important;
@@ -16,6 +24,7 @@
         font-weight: 600 !important;
     }
 
+>>>>>>> 9579552b3a3f02f3d6f95e57b3a75cb718a26a68
     .bbm, .ddm .conteiner_main_block_position, .container-main {
         margin: 0px !important;
     }
@@ -444,6 +453,12 @@
     .next{
         display: none;
     }
+    .arma_header{
+        display: none;
+    }
+    .line_bg{
+        display: none;
+    }
 
     input.utp_input, .clients_haiding, .solution_position_block_ferst_img {
         width: 100% !important;
@@ -684,7 +699,12 @@
     .next{
         display: none;
     }
-
+    .arma_header{
+        display: none;
+    }
+    .line_bg{
+        display: none;
+    }
     .mobileMenu, .bg_posotion_clients2, .bg_posotion_clients {
         display: none !important;
     }

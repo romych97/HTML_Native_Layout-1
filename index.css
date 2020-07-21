@@ -10,7 +10,28 @@ html {
     border: 1px solid #ff7d00;
     border-radius: 5px;
 }
-
+.arma_header{
+    background-image: url(../HTML_Native_Layout-1/img/armatura_header.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    
+}
+.line_position{
+   
+}
+.line_bg{
+    display: block;
+    position: absolute;
+    left: 50px;
+    background-image: url(../HTML_Native_Layout-1/img/line.png);
+    width: 100%;
+    height: 300vh;
+    border-radius: 50%;
+    border: solid 0px #f0f0f0;
+    
+}
 .contain_text_name_blok>div {
     margin: 0px;
 }
@@ -99,7 +120,7 @@ p.three_tex {
 }
 
 .bg_fon{
-    background-image: url(img/bgfon.png);
+    background-image: url(../HTML_Native_Layout-1/img/bgfon.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -311,12 +332,12 @@ body {
     color: #211e1b;
 }
 
-.bg {
+/*.bg {
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+*/
 .header_position {
     display: flex;
     justify-content: center;
@@ -516,13 +537,14 @@ label.menu__btn {
     bottom: 15px;
 }
 .offers_position{
-   
+   width: 100%;
 }
 .offer_with{
     display: inline-flex;
+    z-index: 2;
     width: 480px;
     position: absolute;
-    left: 32%;
+    left: 27.5%;
     top: 5%;
     font-size: 14px;
     font-weight: bold;
@@ -530,36 +552,40 @@ label.menu__btn {
 .offer_with_two{
     display: inline-flex;
     width: 480px;
+    z-index: 2;
     position: absolute;
-    left: 36.8%;
-    top: 6.2%;
+    left: 31%;
+    top: 6.5%;
     font-size: 14px;
     font-weight: bold;
 }
 .offer_with_tree{
     display: inline-flex;
     width: 480px;
+    z-index: 2;
     position: absolute;
-    left: 43.9%;
-    top: 7.4%;
+    left: 36.9%;
+    top: 7.9%;
     font-size: 14px;
     font-weight: bold;
 }
 .offer_with_fore{
     display: inline-flex;
     width: 480px;
+    z-index: 2;
     position: absolute;
-    left: 52%;
-    top: 8.4%;
+    left: 43.2%;
+    top: 9.1%;
     font-size: 14px;
     font-weight: bold;
 }
 .offer_with_fife{
     display: inline-flex;
     width: 480px;
+    z-index: 2;
     position: absolute;
-    left: 65%;
-    top: 9.1%;
+    left: 55%;
+    top: 10.3%;
     font-size: 14px;
     font-weight: bold;
 }
