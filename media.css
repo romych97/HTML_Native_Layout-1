@@ -598,10 +598,6 @@
         position: relative;
         top: 20px;
     }
-    .media_client_text{
-        padding-left: 15px;
-        font-size: 12px;
-    }
     .font_w, .font_w_two, .pb-5, .price_block, .price_block_text {
         margin-left: 15px;
         margin-right: 15px;
