@@ -18,6 +18,46 @@ html {
     display: flex;
 }
 
+.img3000 {
+    width: auto !important;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+p.three_tex {
+    font-size: 23px;
+}
+
+.exclusiveHeader {
+    font-size: 20px;
+}
+
+.contain_text_name_blok {
+    margin-top: 10px;
+}
+
+.contain_text_name_text {
+    margin: 0px !important;
+    max-width: 100%;
+    margin-top: 10px !important;
+    font-size: 20px;
+}
+
+.contain_text_name {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.contain_text_name_second {
+    font-size: 20px;
+}
+
+.media_client_text {
+    font-size: 23px;
+    padding: 0px;
+    margin-top: 30px;
+}
+
 .ourPrerogatives img {
     width: 90px !important;
     margin: 0px 20px;

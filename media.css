@@ -18,9 +18,18 @@
         margin-bottom: 30px !important;
     }
 
+    .tabs>input:checked + label {
+        border-radius: 20px;
+        padding: 20px 0px;
+    }
+
     .metal_position {
         padding: 0px !important;
         margin-top: 50px !important;
+    }
+
+    h2.info_text {
+        padding: 0px;
     }
 
     .paginate {
