@@ -524,20 +524,25 @@ label.menu__btn {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.next{
+.next_position{
     position: absolute;
     top: 8%;
     left: 14%;
+}
+.next{
+    position: absolute;
     width: 3px;
     height: 80px;
     background-color: #dd6a00;
    
 }
 .next_text{
-    color: #dd6a00;
    transform: rotate(270deg);
-   position: reletive;
-    bottom: 15px;
+   color: #dd6a00;
+    position: relative;
+    right: 23px;
+    bottom: 10px;
+   
 }
 .offers_position{
    width: 100%;
