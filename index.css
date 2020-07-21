@@ -22,14 +22,17 @@ html {
    
 }
 .line_bg{
-    display: block;
+    z-index: 3;
     position: absolute;
-    left: 50px;
+    top: 20px;
     background-image: url(../HTML_Native_Layout-1/img/line.png);
     width: 100%;
-    height: 300vh;
-    border-radius: 50%;
-    border: solid 0px #f0f0f0;
+    height: 130vh;
+    background-size: 70%;
+    background-position: right;
+    background-repeat: no-repeat;
+   
+    border: solid 0 #fff;
     
 }
 .contain_text_name_blok>div {
@@ -545,8 +548,8 @@ label.menu__btn {
     z-index: 2;
     width: 480px;
     position: absolute;
-    left: 27.5%;
-    top: 5%;
+    left: 30%;
+    top: 4.85%;
     font-size: 14px;
     font-weight: bold;
 }
@@ -555,8 +558,8 @@ label.menu__btn {
     width: 480px;
     z-index: 2;
     position: absolute;
-    left: 31%;
-    top: 6.5%;
+    left: 33.5%;
+    top: 6.09%;
     font-size: 14px;
     font-weight: bold;
 }
@@ -565,8 +568,8 @@ label.menu__btn {
     width: 480px;
     z-index: 2;
     position: absolute;
-    left: 36.9%;
-    top: 7.9%;
+    left: 39.5%;
+    top: 7.3%;
     font-size: 14px;
     font-weight: bold;
 }
@@ -575,8 +578,8 @@ label.menu__btn {
     width: 480px;
     z-index: 2;
     position: absolute;
-    left: 43.2%;
-    top: 9.1%;
+    left: 45.5%;
+    top: 8.19%;
     font-size: 14px;
     font-weight: bold;
 }
@@ -585,8 +588,8 @@ label.menu__btn {
     width: 480px;
     z-index: 2;
     position: absolute;
-    left: 55%;
-    top: 10.3%;
+    left: 56.3%;
+    top: 9.06%;
     font-size: 14px;
     font-weight: bold;
 }
