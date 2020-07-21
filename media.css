@@ -2,6 +2,13 @@
 /* GIT TEST */
 
 @media (max-width: 680px){
+    
+    .offers_position{
+        display: none;
+    }
+    .next{
+        display: none;
+    }
 
     .bbm, .ddm .conteiner_main_block_position, .container-main {
         margin: 0px !important;
@@ -327,6 +334,14 @@
 }
 
 @media (min-width: 680px) and (max-width: 1000px) {
+
+    .offers_position{
+        display: none;
+    }
+    .next{
+        display: none;
+    }
+
     input.utp_input, .clients_haiding, .solution_position_block_ferst_img {
         width: 100% !important;
     }
@@ -555,6 +570,14 @@
 }
 
 @media (min-width: 1000px) and (max-width: 1200px) {
+
+    .offers_position{
+        display: none;
+    }
+    .next{
+        display: none;
+    }
+
     .mobileMenu, .bg_posotion_clients2, .bg_posotion_clients {
         display: none !important;
     }
