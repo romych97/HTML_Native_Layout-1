@@ -21,7 +21,33 @@ html {
 .img3000 {
     width: auto !important;
     margin: 0px;
-    margin-top: 50px;
+}
+
+.takeMoreButton {
+    display: none;
+}
+
+.price_block>h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.mb-5.p-r.background-orange.beTrustInnerWrap {
+    height: 180vh !important;
+}
+
+.price_numers {
+    font-size: 80px !important;
+}
+
+.price_text {
+    font-size: 20px !important;
+}
+
+.price_block_text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 p.three_tex {

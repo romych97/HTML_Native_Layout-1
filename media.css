@@ -36,6 +36,54 @@
         display: flex !Important;
     }
 
+    .takeMoreButton {
+        margin: 0px 15px;
+        margin-bottom: 50px;
+        display: block !important;
+    }
+
+    button.conteiner_main_button {
+        padding: 20px;
+        width: 100% !important;
+    }
+
+    .flexBasis-33.bottomMenuRight {
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+
+    .flexBasis-33.bottomMenuRight button {
+        height: 50px !important;
+    }
+
+    .text-center.mb-1 {
+        margin-bottom: 10px !important;
+    }
+
+    .map .conteiner_main_block.m-0.ddm {
+        margin: 0px 20px !important;
+        margin-top: 90px !important;
+    }
+
+    .map {
+        height: 500px !important;
+        /* display: flex; */
+    }
+
+    .h1.psm, .mb-2.psk, ul.listProperties li {
+        margin-bottom: 20px !important;
+    }
+
+    .border-orange.px-3.py-3.margin_media {
+        margin: 20px 0px;
+    }
+
+    ul.listProperties li:before {
+        height: 20px !important;
+        margin-bottom: -5px !important;
+        width: 20px !important;
+    }
+
     .metal_position h2 {
         font-size: 30px;
         margin-bottom: 30px;
@@ -125,10 +173,20 @@
     .ddm { width: 90%; }
     h2.container_main_had { font-size: 32px; }
 
+    .contain_text_name { font-size: 20px; }
 
     .reverce>div, .ctb {
         margin: 10px 0px 0px 0px !important;
         padding: 0px !important;
+    }
+
+    .contain_text_name_text {
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    .img3000 {
+        margin-top: 50px;
     }
 
     input.utp_input, .clients_haiding, .utp_button, .solution_position_block_ferst_img, .block_position {
@@ -142,6 +200,7 @@
     .contain_text_name_blok {
         width: 100% !important;
         display: flex;
+        padding: 10px 0px;
         text-align: center;
     }
 
@@ -287,11 +346,16 @@
         position: relative;
         top: 20px;
     }
+
+    .pb-5.contein_position {
+        margin-bottom: 50px;
+    }
     .media_client_text{
-        padding-left: 15px;
-        font-size: 12px;
+        padding-left: 0px;
+        font-size: 22px;
     }
     .pb-5 {
+        padding-bottom: 0px !important;
         margin-left: 15px;
         margin-right: 15px;
     }
