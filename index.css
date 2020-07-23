@@ -421,7 +421,7 @@ label.menu__btn {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    width: 100%;
+    width: 100% !important;
 }
 
 .call_button {
