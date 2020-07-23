@@ -2,10 +2,6 @@
 /* GIT TEST */
 
 @media (max-width: 680px){
-    
-    .offers_position{
-        display: none;
-    }
     .next_position{
         display: none;
     }
