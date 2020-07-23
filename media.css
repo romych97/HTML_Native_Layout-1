@@ -12,10 +12,6 @@
         display: none;
     }
 
-    button.call_button {
-        padding: 0px 20px !important;
-    }
-
     .border-orange.px-3.py-3.margin_media input {
         width: 100% !important;
     }
