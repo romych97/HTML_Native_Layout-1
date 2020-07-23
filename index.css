@@ -412,7 +412,7 @@ label.menu__btn {
     display: inline-flex;
     flex-wrap: wrap;
     margin: 0;
-    width: 100% !important;
+    width: auto !important;
     color: #434343;
     letter-spacing: 01px;
 }
