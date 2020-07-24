@@ -8,7 +8,7 @@
     }
 
     .arma_header{
-        display: none;
+        display: none !important;
     }
     .line_bg{
         display: none;
