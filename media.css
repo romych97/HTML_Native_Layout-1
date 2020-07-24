@@ -9,11 +9,16 @@
     .next_position{
         display: none;
     }
+    .
     .arma_header{
         display: none;
     }
     .line_bg{
         display: none;
+    }
+    
+    .p.call_phone {
+        width: 100% !important;   
     }
 
     .tabs tr td {
@@ -446,6 +451,9 @@
 
     .offers_position{
         display: none;
+    }
+    .p.call_phone {
+        width: 100% !important;   
     }
     .next_position{
         display: none;
