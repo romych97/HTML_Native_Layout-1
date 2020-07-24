@@ -3,9 +3,6 @@
 
 @media (max-width: 680px){
     
-    .offers_position{
-        display: none;
-    }
     .next_position{
         display: none;
     }
@@ -448,10 +445,6 @@
 }
 
 @media (min-width: 680px) and (max-width: 1000px) {
-
-    .offers_position{
-        display: none;
-    }
     .p.call_phone {
         width: 100% !important;   
     }
@@ -698,7 +691,7 @@
 
 @media (min-width: 1000px) and (max-width: 1200px) {
 
-    .offers_position{
+    {
         display: none;
     }
     .next_position{
