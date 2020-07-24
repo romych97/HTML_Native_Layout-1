@@ -15,6 +15,7 @@ html {
     background-repeat: no-repeat;
     position: absolute;
     width: 110px;
+    z-index: -1;
     height: 110px;
     
 }
@@ -24,14 +25,14 @@ html {
 .line_bg{
     z-index: 3;
     position: absolute;
-    top: -250px;
+    top: 20px;
     background-image: url(../HTML_Native_Layout-1/img/line.png);
     width: 100%;
-    left: -350px;
-    height: 1500px;
-    background-size: 50%;
+    height: 130vh;
+    background-size: 70%;
     background-position: right;
     background-repeat: no-repeat;
+   
     border: solid 0 #fff;
     
 }
@@ -126,6 +127,7 @@ p.three_tex {
     background-image: url(../HTML_Native_Layout-1/img/bgfon.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: top;
     position: relative;
     overflow-x: hidden;
 }
@@ -412,7 +414,7 @@ label.menu__btn {
     display: inline-flex;
     flex-wrap: wrap;
     margin: 0;
-    width: auto !important;
+    width: 203px;
     color: #434343;
     letter-spacing: 01px;
 }
@@ -421,15 +423,14 @@ label.menu__btn {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    width: 100% !important;
 }
+
 .call_button {
-    width: auto;
+    width: 203px;
     height: 55px;
     font-weight: 600;
     border-radius: 10px;
     border: 0;
-    padding: 0px 20px !important;
     background-color: #60ba68;
     text-transform: uppercase;
     margin-bottom: 20px;
