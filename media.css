@@ -2,6 +2,10 @@
 /* GIT TEST */
 
 @media (max-width: 680px){
+    
+    .offers_position{
+        display: none;
+    }
     .next_position{
         display: none;
     }
@@ -10,10 +14,6 @@
     }
     .line_bg{
         display: none;
-    }
-
-    .border-orange.px-3.py-3.margin_media input {
-        width: 100% !important;
     }
 
     .tabs tr td {
@@ -173,8 +173,7 @@
     }
 
     p.utp_text {
-        font-size: 28px;
-        font-weight: 600;
+        font-size: 30px;
     }
 
     p.utp_text_two {
@@ -444,6 +443,10 @@
 }
 
 @media (min-width: 680px) and (max-width: 1000px) {
+
+    .offers_position{
+        display: none;
+    }
     .next_position{
         display: none;
     }
@@ -686,6 +689,10 @@
 }
 
 @media (min-width: 1000px) and (max-width: 1200px) {
+
+    .offers_position{
+        display: none;
+    }
     .next_position{
         display: none;
     }
